@@ -6,6 +6,10 @@
 
 
 /*#### Navigation bar Top ####*/
+.head_nav_bar {
+    margin: 1px auto;
+}
+
 .nav_part_one  {
     height: 65px;
     display : flex;
@@ -16,7 +20,7 @@
     height: 27px;
     width: 156px;
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .nav_part_one li,ul {
@@ -24,7 +28,8 @@
 }
 
 .nav_part_one ul {
-    margin-left: 450px;;
+    position: relative;
+    left: 35%;
 }
 
 .nav_part_one li {
@@ -83,10 +88,86 @@
 
 .nav_part_two h3:hover {
     color: #0ab45b;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 /*#### Navigation bar Bot ####*/
 
- 
 
 
+
+
+
+
+
+
+
+/*#### Slider ####*/
+.slide_container {
+    height: 450px;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.platform-image img {
+    position: relative;
+    bottom: 15px;
+    left: 50%;
+}
+
+.platform-info {
+    display: inline-block;
+    position: relative;
+    left: 45px;
+    bottom: 420px;
+    font-family: Helvetica, sans-serif;
+}
+
+.platform-info h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.platform-info li {
+    font-size: 17px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 0;
+}
+
+.platform-info p {
+    font-size: 17px;
+    line-height: 50px;
+    color:  rgba(255, 255, 255, 0.8);
+    letter-spacing: 0;
+    margin-bottom: 25px;
+}
+
+.platform-info a {
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 0 19px 0 0;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.openaccount {
+    background-color: darkorange;
+    font-weight: bold;
+}
+
+.openaccount:hover {
+    background-color: #f57f00;
+    transition: 0.2s;
+}
+
+.learnmore {
+    border: 1px solid white;
+    font-weight: bold;
+}
+/*#### Slider ####*/
