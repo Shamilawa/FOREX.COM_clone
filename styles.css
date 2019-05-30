@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 /*#### Navigation bar Top ####*/
 .head_nav_bar {
     margin: 1px auto;
@@ -95,18 +94,16 @@
 
 
 
-
-
-
-
-
-
 /*#### Slider ####*/
 .slide_container {
     height: 450px;
     background-image: url(images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.platform-image{
+    height: 450px;
 }
 
 .platform-image img {
@@ -171,3 +168,603 @@
     font-weight: bold;
 }
 /*#### Slider ####*/
+
+
+
+/*#### Why Choose ####*/
+.why-choose {
+    height: 520px;;
+    background-color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+}
+
+.why-choose h1 {
+    font-weight: normal;
+    width: 500px;
+    color: #333;
+    padding-top: 40px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.grid-container{
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 100px;
+    justify-content: center;
+}
+
+.items{
+    text-align: center;
+}
+
+.items img {
+    margin-bottom: 25px;
+    width: 192.06px;
+    height: 179px;
+}
+
+.items h3 {
+    margin-bottom: 15px;
+    font-weight: normal;
+    color: black;
+    font-size: 22px;
+}
+
+.items p {
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: #333;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.items a {
+    text-decoration: none;
+    font-weight: 100;
+    color: #053c50;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*#### Why Choose ####*/
+
+/*#### Skills ####*/
+.skills {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+.skills h1 {
+    font-weight: normal;
+    width: 500px;
+    color: #333;
+    padding-top: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.skills p {
+    font-weight: 100;
+    color: #333;
+    font-size: 17px;
+    line-height: 20px;
+    font-size: 17.8px;
+}
+
+.picture-holder {
+    height: 270px;
+    width: 1170px;
+    background-image: url(images/bluegraphics.svg);
+    background-repeat: no-repeat;
+    background-color: #053c50;
+    background-size: contain;
+    display: inline-block;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.picture-holder div {
+    display: inline-block;
+    height: 100%;
+}
+
+.quiz {
+    float: left;
+    position: relative;
+    top: 45px;
+    left: 40px;
+}
+
+.quiz h1{
+    color: white;
+}
+
+.quiz p{
+    color: #dee0e2;
+}
+
+.ratio-btn {
+    float: right;
+    position: relative;
+    top: 35px;
+    right: 100px;
+}
+
+.ratio-btn h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: normal;
+}
+
+.ratio-btn div {
+    display: block;
+    height: 35px;
+}
+
+.ratio-btn label {
+    margin-left: 10px;
+    color: #bcc2c5;
+}
+
+.ratio-btn a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #0ab45b;
+    padding: 13px;
+    border-radius: 5px;
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.ratio-btn a:hover{
+    background-color: #099c4f;
+    transition: 0.2s;
+}
+/*#### Skills ####*/
+
+/*#### Orange Bar ####*/
+.orange-bar {
+    margin-top: 50px;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    background-color: darkorange;
+}
+
+.orange-bar h1 {
+    font-weight: normal;
+    color: white;
+    font-size: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.orange-bar a {
+    float: right;
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    font-size: 15.5px;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+/*#### Orange Bar ####*/
+
+/*#### Platform review ####*/
+.platform-review-info {
+    /*padding-top: 50px;*/
+    font-family: Helvetica, sans-serif;
+    background-color: whitesmoke; 
+    height: 300px;;
+    /*padding-bottom: 75px;*/
+}
+.platform-review {
+    width: 550px;
+    margin-left: 50px;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.platform-review h1 {
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.platform-review p {
+    font-weight: 100;
+    color: #333;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.platform-review a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #053c50;
+    font-size: 17px;
+    line-height: 25px;
+}
+.image-platform img {
+    display: inline-block;
+    position: relative;
+    bottom: 255px;
+    left: 640px;;
+}
+/*#### Platform review ####*/
+
+
+/*#### Partner invesment ####*/
+.partner-invesment {
+    font-family: Helvetica, sans-serif;
+    height: 450px;;
+}
+
+.invesment {
+    width: 500px;
+    margin-left: 50px;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+}
+
+.invesment h1 {
+    font-weight: normal;
+    color: #333;
+}
+
+.invesment .pone {
+    font-weight: 100;
+    color: #333;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.invesment .ptwo {
+    font-weight: 100;
+    color: #333;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.invesment .acc {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #0ab45b;
+    padding: 13px;
+    border-radius: 5px;
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.invesment a:hover{
+    background-color: #099c4f;
+    transition: 0.2s;
+}
+
+
+.invesment-grid {
+    margin-top: 50px;
+    float: right;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 110px);
+    grid-template-rows: repeat(2, 150px);
+    text-align: center;
+    justify-content: center;
+    align-items: start;
+    grid-row-gap: 50px;
+    grid-column-gap: 70px;
+
+}
+
+.first img {
+    margin-bottom: 25px;
+}
+
+.first p {
+    color: #333;
+}
+/*#### Partner invesment ####*/
+
+
+
+/*#### Leverage ####*/
+.leverage {
+    background-color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    height: 450px;;
+}
+
+.research{
+    float: right;
+    clear: both;
+    padding-top: 50px;
+}
+
+.research h2 {
+    color: #333;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.researchgrid {
+    display: grid;
+    grid-template-rows: repeat(3 , 100px);
+    width: 600px;
+}
+
+.newsone {
+    line-height: 30px;
+    text-align: left;
+}
+
+.newsone a {
+    text-decoration: none;
+    color: #053c50;
+    font-size: 18px;
+}
+
+.newsone a:hover {
+    color: #0ab45b;
+    transition: 0.2s;
+}
+
+.newsone p {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.newsone hr {
+    width: 550px;
+}
+
+.latest {
+    color: #053c50;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.latest:hover {
+    color: #0ab45b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+
+.invesment-two {
+    width: 500px;
+    margin-left: 50px;
+    padding-top: 50px;
+    display: inline-block;
+    clear: both;
+}
+
+.invesment-two h1 {
+    font-weight: normal;
+    color: #333;
+}
+
+.invesment-two .pone {
+    font-weight: 100;
+    color: #333;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.invesment-two .ptwo {
+    font-weight: 100;
+    color: #333;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.invesment-two .acc {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #0ab45b;
+    padding: 13px;
+    border-radius: 5px;
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.invesment-two a:hover{
+    background-color: #099c4f;
+    transition: 0.2s;
+}
+
+
+
+/*#### Orange Banner ####*/
+.orange-banner {
+    width: 100%;
+    background-image: url(images/orangegraphic.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    background-color: darkorange;
+}
+
+.orange-banner h1 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: white;
+    font-weight: normal;
+}
+
+.orange-banner .ori {
+    display: inline-block;
+    margin-bottom: 17px;
+    background: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: darkorange;
+    font-weight: bold;
+}
+
+.orange-banner p {
+    color: white;
+    padding-bottom: 50px;
+}
+
+.orange-banner a {
+    color: white;
+    padding-bottom: 50px;
+}
+
+
+
+/*#### Blue Bar ####*/
+
+.blue-bar {
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    background-color: #0855b4;
+}
+
+.blue-bar h1 {
+    font-weight: normal;
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+/*#### Blue Bar ####*/
+
+
+/*#### Contacts ####*/
+.contact {
+    width: 1263px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.left {
+    margin-left: 50px;
+}
+
+.left li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.left img {
+    display: inline-block;
+    margin-bottom: -3px;
+}
+/*#### Contacts ####*/
+
+
+
+
+
+/*#### Q&A ####*/
+.qaholder {
+    height: 200px; 
+    width: 1263px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 80px;
+    justify-content: left;
+    font-family: Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.qaholder h3 {
+    font-weight: normal;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.qaholder a {
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 22px;
+    color: #053c50;
+}
+
+.qaholder a:hover {
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 22px;
+    color: #0ab45b;
+    transition: 0.2s;
+}
+/*#### Q&A ####*/
+
+
+/*#### Link Holder ####*/
+.linkholder {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    height: 100px;
+    align-items: center;
+    justify-items: left;
+    font-family: Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.linkholder a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #053c50;
+}
+
+.linkholder a:hover {
+    text-decoration: none;
+    font-size: 15px;
+    color: #0ab45b;
+    transition: 0.2s;
+}
+
+
+/*#### Link Holder ####*/
+
+
+
+
+/*#### Risk warning ####*/
+.risk p {
+    width: 1263px;
+    padding: 10px 50px;
+    margin: 1px auto;
+    color: #333;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+/*#### Risk warning ####*/
